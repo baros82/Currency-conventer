@@ -1,19 +1,14 @@
-# homepage
+# Welcom 
+ Hi! I would like to show you my website that I learned to create thanks to YouCode.
+## About
+ This page is a simple currency converter where you can select several currencies and convert them.
 
-## Demo strony
+[Link to website](https://baros82.github.io/Currency-conventer/)
 
-[Demo](https://baros82.github.io/homepage/)
+## Previev
 
-## Opis
+## Technologies
 
-jakiś tekst
-
-*kursywa*
-
-**wytłuszczenie**
-
-1. element listy 1
-1. element listy 2
-
-- lista 1
-- lista 2
+- HTMl
+- CSS (with BEM convention)
+- JavaScrip
