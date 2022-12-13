@@ -13,10 +13,10 @@
     <link href="css/form.css" rel="stylesheet">
     <link href="css/currency.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-    rel="stylesheet">
+        rel="stylesheet">
     <title>Kalkulator walut</title>
     <meta property="og:image" content="images/opengraph.jpg">
-    <meta property="og:type" content="website" >
+    <meta property="og:type" content="website">
     <meta property="og:title" content="Kantor walutowy">
     <link rel="icon" href="images/icon.png">
 </head>
@@ -32,27 +32,27 @@
             <fieldset class="form__fieldset">
                 <legend class="form__legend">Kalkulator walutowy</legend>
                 <label>
-                    <span class="form__label--amount">Kwota</span>
-                    <input class="form__amount js-amount" type="number" min="1" step="any" required>
+                    <span class="form-ammount">Kwota</span>
+                    <input class="form__ammount js-ammount" type="number" min="1" step="any" required>
                 </label>
 
-                <select>
-                    <option class="js-amount__usd">USD</option>
-                    <option class="js-amount__eur">EUR</option>
-                    <option class="js-amount__pln">PLN</option>
-                    <option class="js-amount__ars">ARS</option>
+                <select class="js-currency">
+                    <option value="currencyUSD">USD</option>
+                    <option value="currencyEUR">EUR</option>
+                    <option value="currencyPLN">PLN</option>
+                    <option value="currencyARS">ARS</option>
                 </select>
                 <br>
                 <label>
-                    <span class="form__label--result">Wynik</span>
+                    <span class="form-result">Wynik</span>
                     <input class="form__result js-result" readonly>
                 </label>
 
-                <select>
-                    <option class="js-result__usd">USD</option>
-                    <option class="js-result__eur">EUR</option>
-                    <option class="js-result__pln">PLN</option>
-                    <option class="js-result__ars">ARS</option>
+                <select class="js-resultValue">
+                    <option value="resultUSD">USD</option>
+                    <option value="resultEUR">EUR</option>
+                    <option value="resultPLN">PLN</option>
+                    <option value="resultARS">ARS</option>
                 </select>
                 <br>
                 <button class="form__button js-submit">Przelicz</button>

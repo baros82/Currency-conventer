@@ -11,14 +11,9 @@ html {
     margin: auto;
     font-family: 'Lato', sans-serif;
     background-image: url("../images/background.jpg");
-    background-size: 80% 100%;
+    background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
-}
-
-.header {
-    background-color: #8a8787;
-    border-radius: 20px;
 }
 
 .header__subHeader {
