@@ -63,7 +63,7 @@
           const resultValue = resultValueElement.value;
           const outcome = calculateResult(resultValue, result);
 
-          resultElement.value = `${outcome}`;
+          resultElement.value = `${outcome.toFixed(2)}`;
      };
 
      const init = () => {
