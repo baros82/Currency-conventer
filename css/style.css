@@ -8,16 +8,13 @@ html {
 
 .body {
     max-width: 1000px;
+    min-height: 100vh;
     margin: auto;
     font-family: 'Lato', sans-serif;
     background-image: url("../images/background.jpg");
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
-}
-
-.header__subHeader {
-    text-align: center;
 }
 
 .container {
