@@ -6,7 +6,7 @@
 [Link to website](https://baros82.github.io/Currency-conventer/)
 
 ## Previev
-
+![](../images/currency_animation.gif)
 ## Technologies
 
 - HTMl
